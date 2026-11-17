@@ -73,7 +73,7 @@ with tab1:
             "values and is supposed to count the number of zip codes. I also included tooltips that allow users to "
             "hover over individual points to see the count and made the graph interactive so the view can zoom "
             "in and out of the graph. These transformations helped summarize the ZIP code information and make comparisons between cities easier.")
-    st.title("Zipcode Building Count")
+    
 with tab2:
     st.altair_chart(chart2, theme="streamlit", use_container_width=True)
     st.text("This visualization is mean to show the relationship between "
